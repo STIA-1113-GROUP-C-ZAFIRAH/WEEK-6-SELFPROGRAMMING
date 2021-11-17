@@ -1,0 +1,61 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class SubMark {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		
+        System.out.println("Masukkan subjek Math: "); 
+        String markahMath = scan.next();
+        
+        System.out.println("Masukkan markah Math: "); 
+        int markahMaths = scan.nextInt();
+	    
+        System.out.println("Masukkan markah Sejarah: "); 
+        String markahSejarah = scan.next();
+        
+        System.out.println("Masukkan markah Sejarah: "); 
+        int markahSejarah1 = scan.nextInt();
+       
+		if ((markahMaths >50) && (markahSejarah1 > 50)) {
+	        System.out.println("lulus untuk Maths sahaja");
+		}
+		else {
+	        System.out.println("gagal untuk kedua-dua subjek");
+	    
+	        double average = (markahMaths + markahSejarah1)/2;
+	        char grade;
+	        
+	        {
+	                if ((average >=80) && (average <=100))
+	     	            grade = 'A';
+	                    else if ((average>=60) && (average<=79))
+	     	            grade = 'B';
+	     	            else if ((average>=50) && (average<=59))
+	     		           grade = 'C';
+	     	            else 
+	     		        grade = 'F';
+	               System.out.println("Average mark " + average);
+	               System.out.println("Grade: " + grade);
+	        }
+		
+		if (markahMaths > markahSejarah1) {
+	        System.out.println("Markah Math lebih besar daripada markah Sejarah");	
+			}
+		else {
+			System.out.println("Markah Math lebih kecil daripada markah Sejarah");
+		}
+
+      
+    	   
+    	   
+    	   
+    	   
+}  
+	}
+}
+	
+	
