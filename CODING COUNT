@@ -1,0 +1,27 @@
+package selfProgramming;
+
+public class Count {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double y = 15.0;
+		double x = 25.0;
+		
+		
+		if(y!=x)
+			System.out.println("Resul: Y is not equal to x");
+		
+		if(y==x)
+			System.out.println("Result: Y is equal to x");
+			
+		if (y > x );
+		System.out.println("Result : Y is greater than x ");
+		
+		if(y<x) {
+			System.out.println("Value x: " + x + "Value y: " + y);
+			System.out.println("Results: Y is less than x ");
+		}
+	}
+
+}
