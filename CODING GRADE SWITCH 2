@@ -1,0 +1,55 @@
+package mySwitch;
+
+import java.util.Scanner;
+
+public class MyGradeSwitch2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int mark;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println ("Please enter your mark:");
+        mark = scan.nextInt();
+        
+        mark= mark /10;
+        
+        switch(mark) { // kena bahagi 10 untuk dapatkan real number untuk case.
+                       // switch tak boleh guna double
+        
+        case 10 :
+        case 9 :
+        System.out.println("Excellent : Grade A.");
+        break;
+        
+        case 8 :
+        System.out.println("Very Good : Grade B");
+        break;
+            
+        case 7 :
+        System.out.println("Good : Grade C");
+        break;
+            
+        case 6 :
+        System.out.println("Good : Grade D");
+        break;
+        	
+        case 5 :
+        System.out.println("Good : Grade E");
+        break;
+            
+        case 4 :
+        System.out.println("Good : Grade F");
+        break;
+        	
+        default :
+          	 System.out.println("Failed");
+        	  	 
+   		 
+	}
+
+}
+
+        
+	}
