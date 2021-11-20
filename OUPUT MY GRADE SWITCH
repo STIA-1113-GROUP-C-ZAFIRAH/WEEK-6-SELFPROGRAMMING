@@ -1,0 +1,27 @@
+Enter grade from A,B,C,D,E and F:
+A
+Grade A mark >= 90
+
+Enter grade from A,B,C,D,E and F:
+B
+Grade B marks >= 80 and less than 90
+
+Enter grade from A,B,C,D,E and F:
+C
+Grade C marks >= 70 and less than 80
+
+Enter grade from A,B,C,D,E and F:
+D
+Grade D marks >= 60 and less than 70
+
+Enter grade from A,B,C,D,E and F:
+E
+Grade E marks >= 50 and less than 60
+
+Enter grade from A,B,C,D,E and F:
+F
+Grade F marks <= 40
+
+Enter grade from A,B,C,D,E and F:
+G
+Invalid grade
